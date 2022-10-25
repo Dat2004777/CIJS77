@@ -1,0 +1,11 @@
+.status {
+    display: inline-block;
+    background-color: yellow;
+    padding: 1px 6px;
+    border-radius: 8px;
+    color: black;
+    font-weight: 600;
+    font-size: 5px;
+    letter-spacing: 1.25px;
+    margin-left: 10px !important;
+}

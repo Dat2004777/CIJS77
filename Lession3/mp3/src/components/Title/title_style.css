@@ -1,0 +1,11 @@
+.content_title {
+    color: #FFF;
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 786px) {
+    .content_title {
+        color: #FFF;
+        padding-left: 10px;
+    }
+}

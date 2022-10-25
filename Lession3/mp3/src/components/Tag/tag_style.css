@@ -1,0 +1,21 @@
+.tag {
+    margin-right: 30px;
+    min-width: 80px;
+}
+
+.tag a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(133, 0, 133);
+    border-radius: 10000px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+.tag a:hover {
+    background-color: #FFF;
+    
+    color: rgb(28, 8, 46);
+}

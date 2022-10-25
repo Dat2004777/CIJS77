@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(28, 8, 46);
+}
+
+img {
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+img:hover {
+    scale: 1.1;
+    opacity: .8;
+}
+
+.card {
+    display: flex;
+    padding: 10px;
+}
+
+.card_img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card_info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card_info div p, 
+.card_info div h3,
+.album_desc p,
+.album_title h2{
+    display: inline-block;
+    margin: 0;
+}
+
+.card_title h3{
+    color: #FFF;
+    font-size: 18px;
+}
+
+.card_artist p,
+.card_date p,
+.album_desc p{
+    color: #d6d6d6;
+    opacity: .6;
+    font-size: 15px;
+}
+
+.album_desc {
+    width: 250px;
+}
+
+.album {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.album_img img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.album_title {
+    margin: 5px 0;
+}
+
+.album_title h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 786px) {
+    .card {
+        display: flex;
+        padding-left: 15px;
+    }
+}

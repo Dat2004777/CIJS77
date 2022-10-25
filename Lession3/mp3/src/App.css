@@ -1,0 +1,110 @@
+.container {
+    width: 1800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.song_content {
+    display: grid;
+    grid-template-columns: repeat(4, 385px);
+    justify-content: space-evenly;
+}
+
+.album_content {
+    display: grid;
+    grid-template-columns: repeat(5, 290px);
+    justify-content: space-evenly;
+}
+
+.content1 {
+    margin-bottom: 50px;
+}
+
+.tag_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.tag_content {
+    display: flex;
+    padding-left: 60px;
+    margin-bottom: 20px;
+}
+
+.tag_content:nth-child(2) {
+    position: relative;
+    right: 10px;
+}
+
+.showAll {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.showAll:hover .child{
+    color: white;
+    opacity: 1;
+}
+
+.showAll a,
+.showAll .icon{
+    color: #d6d6d6;
+    opacity: .75;
+}
+
+.showAll_link {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 786px) {
+    body {
+        height: auto;
+    }
+    .container {
+        width: 700px;
+        max-width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+
+    .song_content {
+        display: grid;
+        grid-template-columns: repeat(2, 385px);
+        justify-content: space-between;
+    }
+    
+    .album_content {
+        display: grid;
+        grid-template-columns: repeat(2, 290px);
+        justify-content: space-between;
+    }
+
+    .tag_container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .tag_content {
+        padding-left: 10px;
+    }
+
+    .showAll {
+        margin-right: 15px;
+    }
+    /* Hoi phan nay */
+    /* .content2 {
+        height: 1300px;
+    } */
+
+    .album:nth-child(odd) {
+        margin-left: 10px;
+    }
+
+    .album:nth-child(even) {
+        margin-right: 10px;
+    }
+}
